@@ -12,7 +12,7 @@ app.use(express.json())
 app.use(cors())
 
 //routes
-app.use('/',require('./routes/register'))
+app.use('/api/v1',require('./routes/register'))
 
 
 
